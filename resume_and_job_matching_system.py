@@ -29,7 +29,7 @@ nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-df = pd.read_csv(r"/content/drive/MyDrive/Colab Notebooks/job_applicant_dataset.csv")
+df = pd.read_csv("job_applicant_dataset.csv")
 df.info()
 
 from google.colab import drive
